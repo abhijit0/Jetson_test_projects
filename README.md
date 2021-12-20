@@ -32,7 +32,8 @@ Tensorrt engine:
 by using the following command in python environment:
 
 ```python
-$ len(tf.config.list_physical_devices('GPU')) .
+import tensorflow as tf
+print(len(tf.config.list_physical_devices('GPU')))
 # The output should be >= 1 .
 ```
 
