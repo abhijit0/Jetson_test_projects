@@ -1,4 +1,4 @@
-# Jetson_test_projects
+# Jetson Test Projects
 Medium to high complexity Machine learning projects to compare the inference times between optimized and non optimized nueral networks
 
 # Image Classification using Resnet50 
