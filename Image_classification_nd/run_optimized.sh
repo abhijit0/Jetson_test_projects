@@ -2,17 +2,20 @@
 
 option=$1
 if [[ $option == "-debug" ]]
-then 
-  python3 optimized/run_test.py
+then
   input="optimized/logs_trt.log"
+  rm -rf $input 
+  python3 optimized/run_test.py
   while IFS= read -r line
   do
     echo "$line"
   done < "$input"
+  
 elif [[ $option == "-no-debug" ]]
 then
-  python3 optimized/run_test.py &> /dev/null
   input="optimized/logs_trt.log"
+  rm -rf $input
+  python3 optimized/run_test.py &> /dev/null
   while IFS= read -r line
   do
     echo "$line"

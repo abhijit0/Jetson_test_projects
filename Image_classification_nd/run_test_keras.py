@@ -18,14 +18,17 @@ if __name__=="__main__":
   
     #Setting the threshold of logger to DEBUG
     logger.setLevel(logging.DEBUG)
-    
-    model = ResNet50(weights='imagenet')
-    logger.debug("Loading Dataset")
-    data_set = return_dataset()
-    data_set = data_set.reshape(data_set.shape[1], data_set.shape[2], data_set.shape[3], data_set.shape[4])
-    logger.debug("Starting inference")
-    start = time.time()
-    preds = model.predict(data_set)
-    end = time.time()
-    logger.debug("Total time for inference for "+str(data_set.shape[0])+" images "+str(np.round((end-start), 2))+" seconds")
-    logger.debug("Keras Predicted: " +str(decode_predictions(preds, top=10)[0]))
+    try:
+        model = ResNet50(weights='imagenet')
+        logger.debug("Loading Dataset")
+        data_set = return_dataset()
+        data_set = data_set.reshape(data_set.shape[1], data_set.shape[2], data_set.shape[3], data_set.shape[4])
+        logger.debug("Starting inference")
+        start = time.time()
+        preds = model.predict(data_set)
+        end = time.time()
+        logger.debug("Total time for inference for "+str(data_set.shape[0])+" images "+str(np.round((end-start), 2))+" seconds")
+        logger.debug("Keras Predicted: " +str(decode_predictions(preds, top=10)[0]))
+    except BaseException as err:
+        logger.error(err)
+        raise err

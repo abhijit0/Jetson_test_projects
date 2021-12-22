@@ -17,5 +17,6 @@ def save_engine(engine_path="model/plan/resnet50.plan", onnx_path = "models/onnx
     eng.save_engine(engine, engine_path)
 
 def load_engine(plan_path = "model/plan/resnet50.plan", trt_runtime = trt.Runtime(trt.Logger(trt.Logger.WARNING))):
+    print(plan_path)
     engine = eng.load_engine(trt_runtime, plan_path)
     return engine

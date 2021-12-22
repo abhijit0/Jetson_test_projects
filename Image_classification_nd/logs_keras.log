@@ -1,4 +1,5 @@
-2021-12-18 17:16:42,955 Loading Dataset
-2021-12-18 17:17:00,719 Starting inference
-2021-12-18 17:17:31,454 Total time for inference for 1668 images 30.73 seconds
-2021-12-18 17:17:31,841 Keras Predicted: [('n02127052', 'lynx', 0.47250155), ('n02123045', 'tabby', 0.23609547), ('n02123159', 'tiger_cat', 0.21713658), ('n02124075', 'Egyptian_cat', 0.033283036), ('n02128757', 'snow_leopard', 0.01672102), ('n02129604', 'tiger', 0.011404823), ('n02128385', 'leopard', 0.006820237), ('n02123394', 'Persian_cat', 0.002108232), ('n02112350', 'keeshond', 0.00036654813), ('n02120505', 'grey_fox', 0.00023062983)]
+2021-12-22 18:11:18,285 Creating converter from 3 to 5
+2021-12-22 18:11:18,561 Loading Dataset
+2021-12-22 18:11:20,072 Starting inference
+2021-12-22 18:11:26,194 Total time for inference for 1866 images 6.12 seconds
+2021-12-22 18:11:26,298 Keras Predicted: [('n02423022', 'gazelle', 0.36122498), ('n02422106', 'hartebeest', 0.14112061), ('n02389026', 'sorrel', 0.07818545), ('n02422699', 'impala', 0.07209488), ('n02391049', 'zebra', 0.053382665), ('n02415577', 'bighorn', 0.02724035), ('n02099712', 'Labrador_retriever', 0.025983632), ('n02091831', 'Saluki', 0.025826333), ('n02104029', 'kuvasz', 0.020692913), ('n02403003', 'ox', 0.01919014)]
