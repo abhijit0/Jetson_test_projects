@@ -25,7 +25,7 @@ if __name__ == "__main__":
     ##save engine
     try:
         engine_path = join(os.getcwd(),"optimized/models/plan")
-        if(len(os.listdir(engine_path)) == 0):
+        if(len(os.listdir(engine_path)) == 0 or os.listdir(engine_path) != 'resnet50.plan'):
             onnx_path = join(os.getcwd(), 'optimized/models/onnx/resnet50.onnx')
             engine_path = join(os.getcwd(),"optimized/models/plan/resnet50.plan")  
             eop.save_engine(engine_path, onnx_path)

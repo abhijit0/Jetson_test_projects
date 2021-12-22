@@ -1,5 +1,5 @@
-2021-12-22 18:08:54,941 TRT engine loaded
-2021-12-22 18:08:54,941 Loading the test dataset
-2021-12-22 18:08:56,545 Starting inference
-2021-12-22 18:08:58,942 Total time taken for inference for 1866images is 2.4 seconds
-2021-12-22 18:08:59,078 Keras Predicted: [('n02423022', 'gazelle', 0.36122867), ('n02422106', 'hartebeest', 0.14118086), ('n02389026', 'sorrel', 0.07803086), ('n02422699', 'impala', 0.07214225), ('n02391049', 'zebra', 0.05331361), ('n02415577', 'bighorn', 0.027351132), ('n02099712', 'Labrador_retriever', 0.02595789), ('n02091831', 'Saluki', 0.02580818), ('n02104029', 'kuvasz', 0.020660566), ('n02403003', 'ox', 0.019238913), ('n02091134', 'whippet', 0.018807247), ('n02091244', 'Ibizan_hound', 0.014390754), ('n02092339', 'Weimaraner', 0.012784923), ('n02437616', 'llama', 0.011299829), ('n02412080', 'ram', 0.008949024)]
+2021-12-22 18:48:15,694 TRT engine loaded
+2021-12-22 18:48:15,694 Loading the test dataset
+2021-12-22 18:48:17,180 Starting inference
+2021-12-22 18:48:17,850 Total time taken for inference for 1866images is 0.67 seconds
+2021-12-22 18:48:17,980 Keras Predicted: [('n02423022', 'gazelle', 0.36122876), ('n02422106', 'hartebeest', 0.14118077), ('n02389026', 'sorrel', 0.0780308), ('n02422699', 'impala', 0.072142266), ('n02391049', 'zebra', 0.05331357), ('n02415577', 'bighorn', 0.027351111), ('n02099712', 'Labrador_retriever', 0.025957922), ('n02091831', 'Saluki', 0.025808187), ('n02104029', 'kuvasz', 0.02066057), ('n02403003', 'ox', 0.0192389), ('n02091134', 'whippet', 0.018807271), ('n02091244', 'Ibizan_hound', 0.014390772), ('n02092339', 'Weimaraner', 0.012784935), ('n02437616', 'llama', 0.011299821), ('n02412080', 'ram', 0.00894902)]
