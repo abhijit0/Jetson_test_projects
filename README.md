@@ -43,12 +43,10 @@ dataset can be found at : https://www.kaggle.com/alessiocorrado99/animals10?sele
 
 After placing the data : the directory should look like : data/raw-img
 
-Download the plan and onnx files from : https://drive.google.com/drive/u/2/folders/1yYDD2_teYR9wPLwCjV3OMMtrjWTyOBu0
+Download the onnx file from : https://drive.google.com/drive/u/2/folders/1yYDD2_teYR9wPLwCjV3OMMtrjWTyOBu0
 
 ### Place the plan and onnx file in the respective paths:
 onnx : optimized/models/onnx/resnet50.onnx
-
-plan : optimized/models/plan/resnet50.plan
 
 ## Run the following commands in the project directory
 ### unoptimized model on gpu:
