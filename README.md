@@ -45,7 +45,7 @@ After placing the data : the directory should look like : data/raw-img
 
 Download the onnx file from : https://drive.google.com/drive/u/2/folders/1yYDD2_teYR9wPLwCjV3OMMtrjWTyOBu0
 
-### Place the plan and onnx file in the respective paths:
+### Place the onnx file in the respective paths:
 onnx : optimized/models/onnx/resnet50.onnx
 
 ## Run the following commands in the project directory
