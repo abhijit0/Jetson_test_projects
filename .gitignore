@@ -1,0 +1,9 @@
+Image_segmentation
+Image_classification_nd/
+Image_segmentation_nd/data/cane/
+Image_segmentation_nd/optimized/__pycache__/
+Image_segmentation_nd/optimized/tmp_model/
+Image_segmentation_nd/optimized/models/onnx/semantic_model.onnx
+Image_segmentation_nd/optimized/models/plan/semantic_model.plan
+Image_segmentation_nd/semantic_segmentation.hdf5
+Image_segmentation_nd/models/
