@@ -1,0 +1,4 @@
+2021-12-29 16:35:47,801 TRT engine loaded
+2021-12-29 16:35:47,801 Loading the test dataset
+2021-12-29 16:36:04,233 Starting inference
+2021-12-29 16:36:04,234 Total time taken for inference for 5images is 16.43 seconds

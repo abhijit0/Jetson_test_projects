@@ -1,0 +1,4 @@
+2021-12-29 16:24:07,112 Creating converter from 3 to 5
+2021-12-29 16:24:08,116 No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2021-12-29 16:24:24,967 Starting inference
+2021-12-29 16:24:24,967 Total time taken for inference for 5images is 16.85 seconds
