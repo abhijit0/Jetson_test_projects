@@ -69,3 +69,16 @@ Without info:
 ```bash
 $ bash run_optimized.sh -no-debug 
 ```
+
+# Image Segmentation
+Download the onnx file and the hd5 file from the following link: https://drive.google.com/drive/folders/1NypCjzfGBJEQ6Gkj4k7n4Ipwcl9nix42?usp=sharing
+
+Place the onnx file in ```Image_segmentation_nd/optimized/models/onnx```
+
+Place the hd5 file in ```Image_segmentation_nd/```
+
+Place the any one of the folders (e.g cane) from the data_set downloaded for Image Classification Example in the ```Image_segmentation_nd/data/```
+
+### Running test scripts
+Tensorflow : ``` bash run_tf.sh -d no -b 1 ``` (set the flag ```-b yes ``` to show the entire output)
+Tensorrt : ``` bash run_optimized.sh -d yes -b 1 ``` (set the flag ```-b yes ``` to show the entire output)
