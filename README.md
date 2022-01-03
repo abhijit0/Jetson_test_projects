@@ -81,4 +81,5 @@ Place the any one of the folders (e.g cane) from the data set downloaded for Ima
 
 ### Running test scripts
 Tensorflow : ``` bash run_tf.sh -d no -b 1 ``` (set the flag -b to yes to show the entire output)
+
 Tensorrt : ``` bash run_optimized.sh -d no -b 1 ``` (set the flag -b to yes to show the entire output)
