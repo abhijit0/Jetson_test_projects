@@ -80,5 +80,5 @@ Place the hd5 file in ```Image_segmentation_nd/```
 Place the any one of the folders (e.g cane) from the data set downloaded for Image Classification Example in the ```Image_segmentation_nd/data/```
 
 ### Running test scripts
-Tensorflow : ``` bash run_tf.sh -d no -b 1 ``` (set the flag ```-b yes ``` to show the entire output)
-Tensorrt : ``` bash run_optimized.sh -d yes -b 1 ``` (set the flag ```-b yes ``` to show the entire output)
+Tensorflow : ``` bash run_tf.sh -d no -b 1 ``` (set the flag -b to yes to show the entire output)
+Tensorrt : ``` bash run_optimized.sh -d no -b 1 ``` (set the flag -b to yes to show the entire output)
