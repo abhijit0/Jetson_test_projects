@@ -83,3 +83,5 @@ Place the any one of the folders (e.g cane) from the data set downloaded for Ima
 Tensorflow : ``` bash run_tf.sh -d no -b 1 ``` (set the flag -b to yes to show the entire output)
 
 Tensorrt : ``` bash run_optimized.sh -d no -b 1 ``` (set the flag -b to yes to show the entire output)
+
+The outputs will be stored in ```Image_segmentation_nd/data/out```  directory 
