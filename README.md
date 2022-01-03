@@ -77,7 +77,7 @@ Place the onnx file in ```Image_segmentation_nd/optimized/models/onnx```
 
 Place the hd5 file in ```Image_segmentation_nd/```
 
-Place the any one of the folders (e.g cane) from the data_set downloaded for Image Classification Example in the ```Image_segmentation_nd/data/```
+Place the any one of the folders (e.g cane) from the data set downloaded for Image Classification Example in the ```Image_segmentation_nd/data/```
 
 ### Running test scripts
 Tensorflow : ``` bash run_tf.sh -d no -b 1 ``` (set the flag ```-b yes ``` to show the entire output)
