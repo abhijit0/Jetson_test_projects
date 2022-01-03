@@ -1,7 +1,7 @@
 # Jetson Test Projects
 Medium to high complexity Machine learning projects to compare the inference times between optimized and non optimized nueral networks
 
-# Image Classification using Resnet50 
+# 1) Image Classification using Resnet50 
 # Required Libraries:
 ```python
 python == 3.6 
@@ -70,7 +70,7 @@ Without info:
 $ bash run_optimized.sh -no-debug 
 ```
 
-# Image Segmentation
+# 2) Image Segmentation
 Download the onnx file and the hd5 file from the following link: https://drive.google.com/drive/folders/1NypCjzfGBJEQ6Gkj4k7n4Ipwcl9nix42?usp=sharing
 
 Place the onnx file in ```Image_segmentation_nd/optimized/models/onnx```
