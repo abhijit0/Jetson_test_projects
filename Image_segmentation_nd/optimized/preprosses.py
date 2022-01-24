@@ -52,7 +52,7 @@ def file_names_dir(data_path):
     return dir_map   
 
 def return_processed(data_path, start, batch_size):
-    data_dir = join(data_path, listdir(data_path)[0])
+    data_dir = join(data_path, [f for f in listdir(data_path) if f != 'out'][0])
     dir_map = file_names_dir(data_dir)
     print(dir_map)
     data = [sub_mean_chw(np.array(rescale_image(np.asarray(Image.open(dir_map[i])), (512, 1024),order=1)).transpose((2, 0, 1))) for i in range(start, start+batch_size)]
